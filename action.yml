@@ -7,3 +7,4 @@ description: Sets environment variables for subsequent steps in a workflow
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  working-directory: '${{ github.workspace}}/custom-actions'

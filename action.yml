@@ -1,0 +1,9 @@
+name: custom-actions
+description: Sets environment variables for subsequent steps in a workflow
+# inputs:
+#   variables:
+#     description: A list of environment variables to set
+#     required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

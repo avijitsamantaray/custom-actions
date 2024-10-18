@@ -5,6 +5,6 @@ description: Sets environment variables for subsequent steps in a workflow
 #     description: A list of environment variables to set
 #     required: true
 runs:
-  using: 'docker'
+  using: 'composite'
   image: 'Dockerfile'
-  working-directory: '${{ github.workspace}}/custom-actions'
+ 

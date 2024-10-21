@@ -4,6 +4,7 @@ name: Retrieve Secret
 runs:
   using: 'composite'
   steps:
+      - uses: actions/checkout@v3
       - shell: bash
         run: |
           echo "This is python command line "

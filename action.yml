@@ -1,9 +1,9 @@
-name: custom-actions
+name: Retrieve Secret
 
 
 runs:
   using: 'composite'
   steps:
-      shell: bash
-      run: |
-        echo "This is python command line "
+      - shell: bash
+        run: |
+          echo "This is python command line "

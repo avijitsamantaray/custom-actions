@@ -7,3 +7,4 @@ runs:
       - shell: bash
         run: |
           echo "This is python command line "
+          python3 -c "print('hello world')" 
